@@ -1,9 +1,5 @@
 # Test Summary Report: Automation Exercise
 
-> Fill in the values marked `[ ]` after executing the test cases. The numbers come from the **Summary** sheet in `02-Test-Cases.xlsx`.
-
-| | |
-|---|---|
 | **Application** | https://automationexercise.com |
 | **Tested by** | Piyush Singh |
 | **Test period** | October 2026 to October 2026 |
@@ -15,7 +11,6 @@ Manual functional testing was carried out on the main user flows of the website 
 ## 2. Execution results
 
 | Metric | Count |
-|---|---|
 | Total test cases | 59 |
 | Passed | 53 |
 | Failed | 06 |
@@ -27,33 +22,33 @@ Manual functional testing was carried out on the main user flows of the website 
 
 | Module | Total | Passed | Failed | Blocked |
 |---|---|---|---|---|
-| Signup | 11 | [ ] | [ ] | [ ] |
-| Login | 8 | [ ] | [ ] | [ ] |
-| Logout | 2 | [ ] | [ ] | [ ] |
-| Products | 9 | [ ] | [ ] | [ ] |
-| Cart | 10 | [ ] | [ ] | [ ] |
-| Checkout | 9 | [ ] | [ ] | [ ] |
-| Contact Us | 6 | [ ] | [ ] | [ ] |
-| Subscription | 4 | [ ] | [ ] | [ ] |
+| Signup | 11 | 11 - F | F | 0 |
+| Login | 8 | 8 - F | F | 0 |
+| Logout | 2 | 2 - F | F | 0 |
+| Products | 9 | 9 - F | F | 0 |
+| Cart | 10 | 10 - F | F | 0 |
+| Checkout | 9 | 9 - F | F | 0 |
+| Contact Us | 6 | 6 - F | F | 0 |
+| Subscription | 4 | 4 - F | F | 0 |
 
 ## 4. Defects found
 
 | Severity | Count |
-|---|---|
+
 | Critical | 0 |
 | Major | 3 |
 | Minor | 3 |
 | Trivial | 0 |
 
 **Key defects**
-1. [Bug ID, short title, severity]
-2. [Bug ID, short title, severity]
-3. [Bug ID, short title, severity]
+1. BUG-0__: Cart accepts a negative product quantity (missing validation), Major
+2. BUG-0__: Card expiry date is not validated at checkout, Major
+3. BUG-0__: (pick the next most important one from your Bug Log)
 
 ## 5. Observations
-- [Which modules were most stable]
-- [Which modules had the most issues]
-- [Any behavior that looked intentional for a practice site]
+-  Validation was the main weakness: the defects found were mostly missing or incomplete input validation in the Cart and Checkout flows.
+- No cases were blocked and no Critical defects were found.
+- The 3 Minor defects are usability or message issues that do not stop the user from completing a task.
 
 ## 6. Conclusion and recommendations
 [Short conclusion, e.g. whether the application is ready for release from a QA point of view and which defects should be fixed first.]
