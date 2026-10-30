@@ -17,11 +17,11 @@ Manual functional testing was carried out on the main user flows of the website 
 | Metric | Count |
 |---|---|
 | Total test cases | 59 |
-| Passed | [ ] |
-| Failed | [ ] |
-| Blocked | [ ] |
-| Not executed | [ ] |
-| Pass rate | [ ]% |
+| Passed | 53 |
+| Failed | 06 |
+| Blocked | 00 |
+| Not executed | 00 |
+| Pass rate | 89.8% |
 
 ## 3. Results by module
 
