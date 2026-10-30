@@ -6,8 +6,8 @@
 |---|---|
 | **Application** | https://automationexercise.com |
 | **Tested by** | Piyush Singh |
-| **Test period** | [start date] to [end date] |
-| **Environment** | Google Chrome [version], Windows 11 |
+| **Test period** | October 2026 to October 2026 |
+| **Environment** | Google Chrome 156.0.8078.80, Windows 11 |
 
 ## 1. Overview
 Manual functional testing was carried out on the main user flows of the website as described in `01-Test-Plan.md`.
@@ -40,10 +40,10 @@ Manual functional testing was carried out on the main user flows of the website 
 
 | Severity | Count |
 |---|---|
-| Critical | [ ] |
-| Major | [ ] |
-| Minor | [ ] |
-| Trivial | [ ] |
+| Critical | 0 |
+| Major | 3 |
+| Minor | 3 |
+| Trivial | 0 |
 
 **Key defects**
 1. [Bug ID, short title, severity]
