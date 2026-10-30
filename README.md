@@ -21,7 +21,7 @@ Manual testing documentation for the practice e-commerce website [automationexer
 ## Results
 | Total | Passed | Failed | Blocked |
 |---|---|---|---|
-| 59 | [ ] | [ ] | [ ] |
+| 59 | 53 | 06 | 00 |
 
 (Update after execution.)
 
