@@ -20,10 +20,7 @@ Manual testing documentation for the practice e-commerce website [automationexer
 
 ## Results
 | Total | Passed | Failed | Blocked |
-|---|---|---|---|
 | 59 | 53 | 06 | 00 |
-
-(Update after execution.)
 
 ## Tools used
 Microsoft Excel / Google Sheets, Google Chrome with DevTools, Git and GitHub
